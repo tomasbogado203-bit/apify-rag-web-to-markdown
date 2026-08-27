@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "rag-web-to-markdown-extractor",
-    "title": "AI & RAG Clean Web to Markdown Extractor (LLM-Ready)",
+    "title": "AI & RAG Clean Web to Markdown Extractor - LLM & Vector DB Ready",
     "description": "Convert any webpage, documentation, or blog into clean, structured, token-optimized Markdown ready for LLMs, Vector DBs (Pinecone/Chroma), and RAG pipelines without HTML clutter.",
     "version": "0.0",
     "meta": {
