@@ -1,12 +1,14 @@
-﻿{
+{
     "actorOutputSchemaVersion": 1,
-    "title": "RAG Web to Markdown Output",
+    "title": "Actor Results Dataset Output",
+    "description": "Structured dataset containing the extracted records, leads, or data items.",
+    "type": "object",
     "properties": {
-        "results": {
-            "title": "Cleaned Markdown Dataset",
+        "resultsDataset": {
             "type": "string",
-            "description": "Token-optimized Markdown ready for LLMs and RAG pipelines.",
-            "template": "{{links.apiDefaultDatasetUrl}}/items"
+            "title": "Results Dataset",
+            "description": "Direct access to the dataset containing the scraped results.",
+            "editor": "dataset"
         }
     }
 }

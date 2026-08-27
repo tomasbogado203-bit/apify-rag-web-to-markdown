@@ -1,4 +1,4 @@
-﻿{
+{
     "actorSpecification": 1,
     "name": "rag-web-to-markdown-extractor",
     "title": "AI & RAG Clean Web to Markdown Extractor (LLM-Ready)",
@@ -32,11 +32,21 @@
                     "display": {
                         "component": "table",
                         "columns": {
-                            "url": { "label": "Page URL" },
-                            "title": { "label": "Title" },
-                            "wordCount": { "label": "Words" },
-                            "estimatedTokens": { "label": "Tokens" },
-                            "headings": { "label": "Headings" }
+                            "url": {
+                                "label": "Page URL"
+                            },
+                            "title": {
+                                "label": "Title"
+                            },
+                            "wordCount": {
+                                "label": "Words"
+                            },
+                            "estimatedTokens": {
+                                "label": "Tokens"
+                            },
+                            "headings": {
+                                "label": "Headings"
+                            }
                         }
                     }
                 }
