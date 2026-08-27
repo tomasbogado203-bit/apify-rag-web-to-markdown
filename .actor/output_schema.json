@@ -1,0 +1,12 @@
+﻿{
+    "actorOutputSchemaVersion": 1,
+    "title": "RAG Web to Markdown Output",
+    "properties": {
+        "results": {
+            "title": "Cleaned Markdown Dataset",
+            "type": "string",
+            "description": "Token-optimized Markdown ready for LLMs and RAG pipelines.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
