@@ -1,0 +1,35 @@
+{
+    "title": "RAG Web to Markdown Extractor Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Start URLs / Webpages",
+            "type": "array",
+            "description": "List of URLs to scrape and convert into clean Markdown for LLMs (e.g. documentation, articles, blogs).",
+            "editor": "stringList",
+            "prefill": ["https://en.wikipedia.org/wiki/Artificial_intelligence", "https://docs.python.org/3/tutorial/index.html"]
+        },
+        "maxPages": {
+            "title": "Max Pages to Scrape",
+            "type": "integer",
+            "description": "Maximum number of pages to process.",
+            "minimum": 1,
+            "maximum": 5000,
+            "default": 20
+        },
+        "includeImages": {
+            "title": "Include Image Links in Markdown",
+            "type": "boolean",
+            "description": "Keep image tags and links in the converted markdown output.",
+            "default": false
+        },
+        "includeLinks": {
+            "title": "Include Hyperlinks",
+            "type": "boolean",
+            "description": "Retain markdown hyperlinks in text.",
+            "default": true
+        }
+    },
+    "required": ["startUrls"]
+}
